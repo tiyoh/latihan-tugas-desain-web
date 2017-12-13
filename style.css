@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: calibri, ,segoe ui, arial,tahoma,sans-serif;
+}
+
+body{
+  background-color: #DDDDDD;
+}
+
+#wrapper{
+  width: 780px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#header{
+  background: url(images/header.jpg) repeat-x #555;
+  height: 150px;
+  width: 100%;
+  padding: 5px;
+  overflow: hidden;
+}
+#nav{
+  background:#0D0C0C;
+  height: 40px;
+  width: 100%;
+  margin-top:-40px;
+  margin-bottom:30px;
+}
+
+#header img{width: 200px; height: 85px;}
+
+#menu-utama{
+  margin-top: 3px;
+  padding-top:10px;
+  list-style: none;
+}
+
+#menu-utama li{
+  float: left;
+  padding: 0px 20px;
+  border-right: none;
+}
+
+#menu-utama li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nav form{
+  padding-left:550px;
+}
+
+#nav form input{
+  border: none;
+  width: 190px;
+  height: 20px;
+}
+#nav img{
+	float:right;
+	width:30px;
+	height:30px;
+	margin-right:10px;
+	margin-top:-25px;
+	}
+#daftar-artikel{
+  width: 470px;
+  float: left;
+}
+
+.artikel{
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.artikel img{
+  float: left;
+  margin-right: 10px;
+  width: 200px;
+  height: 165px;
+}
+
+.artikel b{
+  color: #616060;
+  background: #DDDDDD;
+  padding: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.artikel p{
+  margin: 10px 0;
+}
+
+.artikel a{
+  display: block;
+  text-align: right;
+  color: #636363;
+}
+
+#sidebar{
+  width: 270px;
+  float: right;
+}
+
+#sidebar h2{
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#sidebar p{
+  line-height: 20px;
+  color: #636363;
+}
+
+#sidebar ul li a {
+  color: #636363;
+  text-decoration: none;
+}
+
+#footer{
+  clear: both;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+  color: #555555;
+}
